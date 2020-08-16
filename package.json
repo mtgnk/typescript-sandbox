@@ -1,0 +1,20 @@
+{
+  "name": "typescript-sandbox",
+  "version": "1.0.0",
+  "description": "typescriptの実験用レポジトリ です ソースコード例に疑問、わかったことを書いていきます。",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "debug": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.57"
+  }
+}
